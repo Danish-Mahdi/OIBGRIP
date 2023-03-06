@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 2em;
+}
+h6{
+    font-size: 17px;
+    font-family: 'Mynerve', cursive;
+}
+h2{
+font-family: 'Shantell Sans', cursive;
+}
+p{
+    font-size: 20px;
+}
+
+/* Hero-section */
+
+
+
+#hero::before{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+        content:"";
+        background: url('AMAR NAMA PIX/Mountain.jpg') no-repeat center center /cover;
+        height: 600px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.89;
+    }
+    #hero{
+        width: 1200px;
+        height: 600px;
+        /*  */
+    }
+    
+
+.Name-Class{
+    position: relative;
+    top: 77px;
+    left: 50px;
+    font-size: 25px;
+    color: white;
+}
+h1{
+    font-family: 'Shantell Sans', cursive;
+    margin-bottom: 10px;
+    font-size: 4.5em;
+}
+button{
+background-color: transparent;
+border: 1px solid white;
+color: white;
+}
+
+.btn-1
+{
+    margin-top: 68px;
+    width: 127px;
+    height: 34px;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+
+
+
+/* Bio Section */
+#bio-section{
+    margin-top: 12px;
+    /* width: 100%; */
+    height: 550px;
+    /* border: 2px solid black; */
+}
+.bioFBOX{
+    display: flex;
+}
+.P-pic{
+    animation: fadein 3s ease-in-out;
+    margin: 53px 50px;
+    width: 300px;
+    height: 323px;
+}
+.bio-text{
+    margin: 41px 389px 3px 95px;
+    font-size: 21px;
+}
+.Pic-DISPLAY{
+    animation: fadein 3s ease-in-out;
+    /* animation-delay: 1s; */
+    margin-top: 48px;
+    width: 490px;
+    height: 288px;
+    margin-left: 248px;
+}
+
+
+
+
+/*Featured-work section */
+#Featured-work
+{
+    margin-top: 50px;
+    /* width: ; */
+    height:600px ;
+    /* border: 2px solid black; */
+}
+.F-work{
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+}
+.F-work-text{
+    margin-top: 184px;
+    margin-left: 82px;
+}
+
+.bird, .truck{
+  
+    width: 460px;
+    height: 280px;}
+     
+.show{
+    margin-top: 12px ;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.con-1{
+    margin-top: 181px;
+}
+.con-2{
+    margin-top: 216px;
+}
+
+.contr{
+    margin-left: -78px;
+}
+
+
+/* Remarks-section */
+#Remarks-section{
+    width: 1348px;
+    /* background-image: url('AMAR NAMA PIX/Princess of hope.jpg'); */
+    height: 700px;
+    /* border: 2px solid black; */
+    margin-top: 150px;
+    position: relative;
+}
+
+#Remarks-section::before{
+    background: url('AMAR NAMA PIX/Princess of hope.jpg') no-repeat center;
+    background-size: 1348px 700px ;
+    /* no-repeat center/cover */
+    content: '';
+    opacity: 0.70;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 100%;
+}
+.remark{
+    position: absolute;
+    top: 101px;
+    left: 25px;
+    /* margin-right: ; */
+    width: 47%;
+}
+.remark-t{
+    color: white;
+    font-size: 3em;
+}
+.Comby{
+    font-size: 20px;
+    margin-top: 48px;
+    color: white;
+    font-family: monospace;
+}
+
+/* Awards section */
+#Awards-section{
+    margin-top:22px ;
+    height: 700px;
+    /* border: 2px solid black; */
+}
+#Awards-section h2{
+   
+margin: 30px 0px -12px 20px ;
+}
+
+
+.AwardsDIV{
+    display: flex;
+gap: 70px;
+}
+
+.Award-2{
+    /* margin-top: -46px;
+    margin-left: 262px; */
+margin: -46px 262px;
+}
+
+
+.Award-1{
+    margin-top: 50px;
+    margin-left: 142px;
+    width: 33%;
+
+}
+.A1P1{
+    margin-bottom: 31px;
+    margin-top: 18px;
+}
+.A-remarks{
+     
+margin-top: 8px;
+    font-size: 15px;
+}
+.A2I, .A1I{
+    width:399px;
+    height: 356px;  
+}
+.AN{
+    margin-top: 12px;
+}
+.A2I{
+    animation: moveToLeft 4s ease-in-out;
+        animation-delay: 10ms;   
+}
+.A1I{
+animation: moveToRight 4s ease-in-out;
+        animation-delay: 10ms;
+}   
+
+
+
+/* Skill and Education section */
+#ES-section{
+    /* border: 2px solid black; */
+    margin-top: 70px;
+    height: 800px;
+
+}
+
+.ES-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.S-pic{
+    /* for overlay*/
+    display: block;
+    /*for overlay */
+    width: 355px;
+    height: 380px;}
+/* overlay try */
+
+.overlay1, .overlay2, .overlay3 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+.overlay2{
+    width: 50%;
+    bottom: 4px;
+}
+.overlay3{    
+    width: 65%;
+    bottom: 4px;
+    left: 249px;
+}
+
+  .conlay {
+    position: relative;
+    width: 50%;
+    /* max-width: 332px; */
+  }
+  .conlay:hover .overlay1{
+    opacity: 1;
+  }
+  .conlay:hover .overlay2{
+    opacity: 1;
+  }
+  .conlay:hover .overlay3{
+    opacity: 1;
+  }
+
+
+
+.E-pic{
+    width: 397px;
+    height: 335px;
+    margin-top: 125px;
+}
+
+.E-text{
+    margin-left: 35px;
+    width: 35%;
+}
+.S-text{
+    margin-top: 39px;
+}
+li{
+    font-size: 18px;
+}
+.S-box, .E-box{
+    /* border: 2px solid black; */
+}
+.E-box{
+    margin-left: 324px;
+    margin-top: 2px;
+}
+
+.E-1{
+    margin-top: 7px;
+    margin-bottom:29px; 
+}
+.S-box{
+    margin: -128px -313px 0px 195px;
+}
+.S-text h2{
+    margin-bottom: 7px;
+}
+
+
+
+/* Contact section */
+#contact-section{
+margin-top: 40px;
+/* border: 2px solid black; */
+}
+.C-text{
+    margin-left: 20px;
+}
+.C-text h2{
+    margin-bottom: 5px;
+}
+.C-btn{
+    border: 2px solid black;
+    color: black;
+    position: relative; 
+    top: -90px; 
+    left: 1175px;
+   
+
+}
+.C-pic{
+    /* visibility: hidden; */
+    width: 100%;
+    height: 81vh;
+    margin-top: -72px;
+
+}
+
+
+
+
+/* Animations Keyframes left and right */
+@keyframes moveToLeft{
+    0% {
+        transform: translateX(220px);
+    }
+    100% {
+        transform: translateX(0px);
+    }}
+    
+
+@keyframes moveToRight{
+    0% {
+        transform: translateX(-220px);
+    }
+    100% {
+        transform: translateX(0px);
+    }}
+
+    
+/* Animation fadein Keyframes */
+@keyframes fadein{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+    /* Button Animation */
+    button:hover{
+        color: white;
+        background-color: black;
+    }
